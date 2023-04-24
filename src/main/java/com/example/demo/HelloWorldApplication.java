@@ -17,7 +17,6 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
-        System.out.print("This is first jenkins project");
         SpringApplication.run(HelloWorldApplication.class);
     }
 
