@@ -8,7 +8,8 @@ steps {
 }
 stage('Deploy') {
 steps {
-deploy adapters: [tomcat9(credentialsId: 'a77d077e-5b92-458a-a8a2-ca3bbb5016dd', path: '', url: 'http://15.207.247.109:8081/')], contextPath: null, war: '**/*.war'}
+deploy adapters: [tomcat9(credentialsId: '2c86cc08-411c-417b-9f0d-5b54881af267', path: '', url: 'http://15.207.247.109:8081/')], contextPath: null, war: '**/*.war'
+}
 }
 }
 }
